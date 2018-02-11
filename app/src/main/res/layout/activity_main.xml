@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_urlprotocolinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#c1c1c1"
+            android:text="urlprotocolinfo"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_avformatinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fc9496a7"
+            android:text="avformatinfo"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_avcodecinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6c6eaf"
+            android:text="avcodecinfo"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_avfilterinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#303997"
+            android:text="avfilterinfo"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_configurationinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#050793"
+            android:text="configurationinfo"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/sample_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击上面的按钮查看对应信息"
+            />
+    </ScrollView>
+</LinearLayout>
